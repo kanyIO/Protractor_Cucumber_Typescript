@@ -1,0 +1,247 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Validating calc app",
+    "line": 1,
+    "id": "validating-calc-app",
+    "tags": [],
+    "uri": "Features/demo.feature",
+    "elements": [
+      {
+        "id": "validating-calc-app;calculator-add-functionality-testing",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Calculator Add functionality testing",
+        "tags": [
+          {
+            "name": "@calculatortesting",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinitions/hooks.ts:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "I will navigate to Calc Site",
+            "result": {
+              "status": "ambiguous"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I add two numbers \"3\" and \"5\"",
+            "result": {
+              "status": "ambiguous"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the output displayed should be \"8\"",
+            "result": {
+              "status": "ambiguous"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinitions/hooks.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinitions/hooks.ts:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-calc-app;calculator-add-functionality-testing-no-2",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Calculator Add functionality testing no 2",
+        "tags": [
+          {
+            "name": "@calculatortesting",
+            "line": 10
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinitions/hooks.ts:6"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 13,
+            "name": "I will navigate to \"calc\" page",
+            "result": {
+              "status": "ambiguous"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I add two numbers \"2\" and \"7\"",
+            "result": {
+              "status": "ambiguous"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "the output displayed should be \"9\"",
+            "result": {
+              "status": "ambiguous"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinitions/hooks.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinitions/hooks.ts:11"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "validating-calc-app;click-some-links-and-enter-stuff-on-an-edit-box",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Click some links and enter stuff on an edit box",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "I will navigate to \"AngularJs\" page",
+            "result": {
+              "status": "ambiguous"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I clicked on header link",
+            "result": {
+              "status": "ambiguous"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "you will navigate to angular page",
+            "result": {
+              "status": "ambiguous"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "you will enter \"<key>\" in search box",
+            "result": {
+              "status": "ambiguous"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "StepDefinitions/hooks.ts:21"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
