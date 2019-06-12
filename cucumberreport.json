@@ -28,7 +28,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 1000000
             }
           },
           {
@@ -36,8 +36,12 @@
             "keyword": "Given ",
             "line": 6,
             "name": "I will navigate to Calc Site",
+            "match": {
+              "location": "StepDefinitions/steps.ts:9"
+            },
             "result": {
-              "status": "ambiguous"
+              "status": "passed",
+              "duration": 957000000
             }
           },
           {
@@ -45,8 +49,12 @@
             "keyword": "When ",
             "line": 7,
             "name": "I add two numbers \"3\" and \"5\"",
+            "match": {
+              "location": "StepDefinitions/steps.ts:13"
+            },
             "result": {
-              "status": "ambiguous"
+              "status": "passed",
+              "duration": 123000000
             }
           },
           {
@@ -54,8 +62,12 @@
             "keyword": "Then ",
             "line": 8,
             "name": "the output displayed should be \"8\"",
+            "match": {
+              "location": "StepDefinitions/steps.ts:18"
+            },
             "result": {
-              "status": "ambiguous"
+              "status": "passed",
+              "duration": 1941000000
             }
           },
           {
@@ -65,8 +77,7 @@
               "location": "StepDefinitions/hooks.ts:21"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -76,7 +87,8 @@
               "location": "StepDefinitions/hooks.ts:11"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
@@ -86,8 +98,7 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -95,12 +106,12 @@
       {
         "id": "validating-calc-app;calculator-add-functionality-testing-no-2",
         "keyword": "Scenario",
-        "line": 11,
+        "line": 12,
         "name": "Calculator Add functionality testing no 2",
         "tags": [
           {
             "name": "@calculatortesting",
-            "line": 10
+            "line": 11
           }
         ],
         "type": "scenario",
@@ -118,32 +129,40 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 13,
+            "line": 14,
             "name": "I will navigate to \"calc\" page",
             "match": {
-              "location": "StepDefinitions/steps.ts:14"
+              "location": "StepDefinitions/steps.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 1032000000
+              "duration": 483000000
             }
           },
           {
             "arguments": [],
             "keyword": "When ",
-            "line": 14,
+            "line": 15,
             "name": "I add two numbers \"2\" and \"7\"",
+            "match": {
+              "location": "StepDefinitions/steps.ts:13"
+            },
             "result": {
-              "status": "ambiguous"
+              "status": "passed",
+              "duration": 79000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 15,
+            "line": 16,
             "name": "the output displayed should be \"9\"",
+            "match": {
+              "location": "StepDefinitions/steps.ts:18"
+            },
             "result": {
-              "status": "ambiguous"
+              "status": "passed",
+              "duration": 1946000000
             }
           },
           {
@@ -181,7 +200,7 @@
       {
         "id": "validating-calc-app;click-some-links-and-enter-stuff-on-an-edit-box",
         "keyword": "Scenario",
-        "line": 19,
+        "line": 22,
         "name": "Click some links and enter stuff on an edit box",
         "tags": [],
         "type": "scenario",
@@ -189,53 +208,52 @@
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 22,
+            "line": 24,
             "name": "I will navigate to \"AngularJs\" page",
-            "match": {
-              "location": "StepDefinitions/steps.ts:14"
-            },
-            "result": {
-              "status": "passed",
-              "duration": 3011000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 23,
-            "name": "I clicked on header link",
             "match": {
               "location": "StepDefinitions/steps.ts:26"
             },
             "result": {
               "status": "passed",
-              "duration": 2175000000
+              "duration": 3150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I clicked on header link",
+            "match": {
+              "location": "StepDefinitions/steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2214000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
-            "line": 24,
+            "line": 26,
             "name": "navigate to angular page",
             "match": {
-              "location": "StepDefinitions/steps.ts:30"
+              "location": "StepDefinitions/steps.ts:39"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 25,
+            "line": 27,
             "name": "Type in \"Yabba dabba doo\" in the search box!",
             "match": {
-              "location": "StepDefinitions/steps.ts:34"
+              "location": "StepDefinitions/steps.ts:42"
             },
             "result": {
               "status": "passed",
-              "duration": 3179000000
+              "duration": 11397000000
             }
           },
           {
