@@ -1,6 +1,6 @@
 Feature: Validating calc app
  
- @calculatortesting
+@calculatortesting
 Scenario: Calculator Add functionality testing
 
 Given I will navigate to Calc Site
@@ -18,7 +18,8 @@ Then the output displayed should be "9"
 Scenario Outline:  Angular validations
 Scenario: Click some links and enter stuff on an edit box
 
-Given The site to open is "AngularJs" page
-When When I clicked on header link
-And you will navigate to angular page
+
+Given I will navigate to "AngularJs" page
+When I clicked on header link
+And navigate to angular page
 Then Type in "Yabba dabba doo" in the search box!

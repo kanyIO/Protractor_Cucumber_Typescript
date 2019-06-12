@@ -21,17 +21,17 @@ let ah = new AngularHomepage();
           {
             await browser.get("https://angularjs.org/");
           }
-        
           });
 
           When('I clicked on header link', async ()=> {
-
             await ah.angularLink.click();
           });
-          When('you will navigate to angular page', async ()=> {
+
+          When('navigate to angular page', async ()=> {
           console.log("navigated to new page");
           });
-          Then('you will enter {string} in search box', async (string)=> {
+
+          Then('Type in {string} in the search box!', async (string)=> {
             await browser.sleep(3000);
             await ah.search.sendKeys(string);
           });
@@ -47,28 +47,4 @@ let ah = new AngularHomepage();
                expect(text).to.equal(string);
           })
          });
-
-
  
-         Given('I will navigate to {string} page', async (string)=> {
-        if(string=="calc")
-        {
-          await browser.get('http://juliemr.github.io/protractor-demo/'); 
-        }
-        else if (string=="AngularJs")
-        {
-          await browser.get("https://angularjs.org/");
-        }
-        });
-
-        When('I clicked on header link', async ()=> {
-          await ah.angularLink.click();
-        });
-        When('you will navigate to angular page', async ()=> {
-        console.log("navigated to new page");
-        });
-
-        Then('you will enter {string} in search box', async (string)=> {
-          await browser.sleep(3000);
-          await ah.search.sendKeys(string);
-        });

@@ -28,7 +28,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 1000000
+              "duration": 3000000
             }
           },
           {
@@ -120,8 +120,12 @@
             "keyword": "Given ",
             "line": 13,
             "name": "I will navigate to \"calc\" page",
+            "match": {
+              "location": "StepDefinitions/steps.ts:14"
+            },
             "result": {
-              "status": "ambiguous"
+              "status": "passed",
+              "duration": 1032000000
             }
           },
           {
@@ -149,8 +153,7 @@
               "location": "StepDefinitions/hooks.ts:21"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           },
           {
@@ -170,8 +173,7 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed",
-              "duration": 1000000
+              "status": "passed"
             }
           }
         ]
@@ -179,7 +181,7 @@
       {
         "id": "validating-calc-app;click-some-links-and-enter-stuff-on-an-edit-box",
         "keyword": "Scenario",
-        "line": 20,
+        "line": 19,
         "name": "Click some links and enter stuff on an edit box",
         "tags": [],
         "type": "scenario",
@@ -189,8 +191,12 @@
             "keyword": "Given ",
             "line": 22,
             "name": "I will navigate to \"AngularJs\" page",
+            "match": {
+              "location": "StepDefinitions/steps.ts:14"
+            },
             "result": {
-              "status": "ambiguous"
+              "status": "passed",
+              "duration": 3011000000
             }
           },
           {
@@ -198,26 +204,38 @@
             "keyword": "When ",
             "line": 23,
             "name": "I clicked on header link",
+            "match": {
+              "location": "StepDefinitions/steps.ts:26"
+            },
             "result": {
-              "status": "ambiguous"
+              "status": "passed",
+              "duration": 2175000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 24,
-            "name": "you will navigate to angular page",
+            "name": "navigate to angular page",
+            "match": {
+              "location": "StepDefinitions/steps.ts:30"
+            },
             "result": {
-              "status": "ambiguous"
+              "status": "passed",
+              "duration": 1000000
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
             "line": 25,
-            "name": "you will enter \"<key>\" in search box",
+            "name": "Type in \"Yabba dabba doo\" in the search box!",
+            "match": {
+              "location": "StepDefinitions/steps.ts:34"
+            },
             "result": {
-              "status": "ambiguous"
+              "status": "passed",
+              "duration": 3179000000
             }
           },
           {
@@ -237,7 +255,8 @@
               "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:26"
             },
             "result": {
-              "status": "passed"
+              "status": "passed",
+              "duration": 1000000
             }
           }
         ]
