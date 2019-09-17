@@ -13,6 +13,7 @@
   "author": "Melissa",
   "license": "ISC",
   "dependencies": {
+    "lodash": ">=4.17.13",
     "@types/cucumber": "^4.0.5",
     "@types/jasmine": "~3.3.5",
     "@types/jasminewd2": "~2.0.6",
