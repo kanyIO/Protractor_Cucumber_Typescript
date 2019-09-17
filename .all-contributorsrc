@@ -1,0 +1,33 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "schmeekypedia",
+      "name": "schmeekypedia",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/52054280?v=4",
+      "profile": "https://github.com/schmeekypedia",
+      "contributions": [
+        "code",
+        "bug",
+        "design",
+        "maintenance",
+        "plugin",
+        "tool",
+        "test",
+        "tutorial",
+        "doc",
+        "example",
+        "question"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Protractor_Cucumber_Typescript",
+  "projectOwner": "kanyIO",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
